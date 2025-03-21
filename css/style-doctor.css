@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #10b3b9;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Doctors List */
+.doctors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Doctor Profile Card */
+.doctor-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.doctor-card:hover {
+    transform: scale(1.05);
+}
+
+.doctor-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.doctor-info h2 {
+    color: #10b3b9;
+    margin-top: 10px;
+}
+
+.specialty, .achievements, .courses, .expertise, .reviews {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button */
+.btn {
+    background-color: #10b3b9;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0e989d;
+}

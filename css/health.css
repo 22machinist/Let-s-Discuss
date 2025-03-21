@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #10b3b9;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Search Bar */
+.search-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#searchInput {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Doctor List Container */
+.doctors-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Doctor Card */
+.doctor-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: left;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doctor-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.doctor-details {
+    flex-grow: 1;
+}
+
+.doctor-name {
+    color: #10b3b9;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.doctor-name:hover {
+    text-decoration: underline;
+    color: #0e8a8d;
+}
+
+.expertise {
+    color: #555;
+    font-size: 14px;
+}

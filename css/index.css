@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #A0D0D0;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: #E59D23;
+}
+
+/* Navbar  */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-box {
+    border-style: solid;
+    border-radius: 15px;
+    margin: 2px;
+    padding: 10px;
+    background-color: #10b3b9;
+}
+
+.nav-box:hover {
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: #A0D0D0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #E59D23;
+}
+
+/* Containers */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+/* Rectangular Boxes */
+.box {
+    background: #D0F0F0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+.contact {
+    background: white;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea,
+button {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background: #E59D23;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Popup Box */
+.popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #10b3b9;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Show Popup */
+.popup.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+    }
+}
+
+.medical-professionals {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.header-section {
+    background-color: #10b3b9;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.header-section h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.header-section ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #a2d5d7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.site-footer {
+    background-color: #90C5C5;
+    /* Light cyan shade */
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
