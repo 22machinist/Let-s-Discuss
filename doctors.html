@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Doctor | The Phoenix Group</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style-doctor.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Find a Doctor</h1>
+        <input type="text" id="searchBar" placeholder="Search doctors by name or specialty..."
+            onkeyup="searchDoctors()">
+    </header>
+
+    <div class="doctors-container" id="doctorsList">
+        <!-- Doctor Profile Cards -->
+        <div class="doctor-card">
+            <img src="images/dummy.jpg" alt="Dr. Name">
+            <div class="doctor-info">
+                <h2>Dr. John Doe</h2>
+                <p class="specialty">Cardiologist | 10+ years experience</p>
+                <p class="achievements">🏆 National Heart Research Award</p>
+                <p class="courses">📖 MBBS, MD (Cardiology)</p>
+                <p class="expertise">💡 Heart Surgery, ECG, Angioplasty</p>
+                <p class="reviews">⭐ 4.9 (200+ Reviews)</p>
+                <button class="btn">Book Appointment</button>
+            </div>
+        </div>
+
+        <div class="doctor-card">
+            <img src="images/dummy.jpg" alt="Dr. Name">
+            <div class="doctor-info">
+                <h2>Dr. Sarah Lee</h2>
+                <p class="specialty">Neurologist | 8+ years experience</p>
+                <p class="achievements">🏆 Best Neuro Specialist Award</p>
+                <p class="courses">📖 MBBS, MS (Neuroscience)</p>
+                <p class="expertise">💡 Brain Surgery, Stroke Treatment</p>
+                <p class="reviews">⭐ 4.8 (180+ Reviews)</p>
+                <button class="btn">Book Appointment</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="jss/script-doctor.js"></script>
+</body>
+
+</html>
