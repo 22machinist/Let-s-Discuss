@@ -13,6 +13,8 @@
 
     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
 </head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
 
 <body>
 
@@ -55,11 +57,11 @@
             <h2>Contact Us !</h2>
             <form id="contactForm">
                 <label>Name:</label>
-                <input type="text" placeholder="Enter your name">
+                <input id="user_name" type="text" placeholder="Enter your name">
                 <label>Email:</label>
-                <input type="email" placeholder="Enter your email">
+                <input id="user_email" type="email" placeholder="Enter your email">
                 <label>Query:</label>
-                <textarea placeholder="Enter your query"></textarea>
+                <textarea id="user_query" placeholder="Enter your query"></textarea>
                 <button type="submit">Submit</button>
             </form>
         </div>
