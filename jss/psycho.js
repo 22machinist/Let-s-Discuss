@@ -5,7 +5,7 @@ const doctors = [
         name: "Dr. Sarah Johnson",
         expertise: "Clinical Psychologist",
         profileImage: "images/dummy.jpg",
-        profileLink: "profile_sarah.html"
+        profileLink: "Doctors/sarah.html"
     },
     {
         id: 2,
